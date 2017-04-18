@@ -1,0 +1,49 @@
+
+.winner{
+    color:#FFF;
+    text-align: center
+}
+button {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 15px 45px;
+    font-size: 38px;
+    line-height: 1.8;
+    vertical-align: bottom;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.winner button{
+    cursor: pointer;
+    color: #fff;
+    background-color: darkred;
+    border: none;
+    -webkit-box-shadow: 0 10px #27496d;
+    -moz-box-shadow: 0 10px #27496d;
+    box-shadow: 0 10px #27496d;
+}
+
+.winner button:hover{
+    color: #fff;
+    background-color: #6496c8;
+    border: none;
+    -webkit-box-shadow: 0 4px #27496d;
+    -moz-box-shadow: 0 4px #27496d;
+    box-shadow: 0 4px #27496d;
+}
+
+.hero-logo {
+    -webkit-filter: drop-shadow(0 2px 2px rgba(0,0,0,0.24));
+    filter: drop-shadow(0 2px 2px rgba(0,0,0,0.24));
+    margin-bottom: 8px;
+    opacity: 1;
+    padding: 0;
+    width: 240px;
+}
